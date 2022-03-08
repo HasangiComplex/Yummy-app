@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:outlineAmbientShadowColor="@color/red"
+    android:outlineSpotShadowColor="@color/red"
+    app:strokeColor="@color/red"
+    android:layout_marginHorizontal="5dp"
+    app:cardCornerRadius="23dp"
+    app:cardElevation="15dp"
+    android:id="@+id/card_view"
+    android:backgroundTint="@color/white"
+    app:strokeWidth="1.5dp"
+    android:layout_height="75dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:id="@+id/img"
+            android:layout_height="30dp"
+            android:tint="@color/red"
+            tools:src="@drawable/ic_pizza"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:id="@+id/txt_title"
+            android:text="Pizza"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
